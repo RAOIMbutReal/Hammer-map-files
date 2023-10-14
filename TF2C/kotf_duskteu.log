@@ -1,0 +1,3670 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (663950 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 44 texinfos to 24
+Reduced 5 texdatas to 5 (127 bytes to 127)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 216 portalclusters
+ 685 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 26 visible clusters (0.08%)
+Total clusters visible: 32194
+Average clusters visible: 149
+Building PAS...
+Average clusters audible: 215
+visdatasize:13444  compressed from 13824
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+Error! Unable to load file "models/props_trainyard/portable_stairs001.dx80.vtx"
+535 faces
+622310 square feet [89612752.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+535 patches before subdivision
+535 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 16630, max 170
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 79/8192          948/98304    ( 1.0%) 
+brushsides             507/65536        4056/524288   ( 0.8%) 
+planes                 352/65536        7040/1310720  ( 0.5%) 
+vertexes               718/65536        8616/786432   ( 1.1%) 
+nodes                  456/65536       14592/2097152  ( 0.7%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                  535/65536       29960/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              320/65536       17920/3670016  ( 0.5%) 
+leaves                 458/65536       14656/2097152  ( 0.7%) 
+leaffaces              575/65536        1150/131072   ( 0.9%) 
+leafbrushes            335/65536         670/131072   ( 0.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3725/512000      14900/2048000  ( 0.7%) 
+edges                 2034/256000       8136/1024000  ( 0.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             23/32768         230/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           345/65536         690/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13444/16777216 ( 0.1%) 
+entdata               [variable]         983/393216   ( 0.2%) 
+LDR ambient table      458/65536        1832/262144   ( 0.7%) 
+HDR ambient table      458/65536        1832/262144   ( 0.7%) 
+LDR leaf ambient      1627/65536       45556/1835008  ( 2.5%) 
+HDR leaf ambient       458/65536       12824/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/442      ( 0.2%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]      663950/4194304  (15.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1358
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (664501 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 49 texinfos to 29
+Reduced 6 texdatas to 6 (146 bytes to 146)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 216 portalclusters
+ 685 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 25 visible clusters (0.08%)
+Total clusters visible: 32629
+Average clusters visible: 151
+Building PAS...
+Average clusters audible: 215
+visdatasize:13459  compressed from 13824
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+Error! Unable to load file "models/props_trainyard/portable_stairs001.dx80.vtx"
+541 faces
+622537 square feet [89645456.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+541 patches before subdivision
+541 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 17988, max 178
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 80/8192          960/98304    ( 1.0%) 
+brushsides             513/65536        4104/524288   ( 0.8%) 
+planes                 266/65536        5320/1310720  ( 0.4%) 
+vertexes               726/65536        8712/786432   ( 1.1%) 
+nodes                  452/65536       14464/2097152  ( 0.7%) 
+texinfos                29/12288        2088/884736   ( 0.2%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                  541/65536       30296/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              326/65536       18256/3670016  ( 0.5%) 
+leaves                 455/65536       14560/2097152  ( 0.7%) 
+leaffaces              581/65536        1162/131072   ( 0.9%) 
+leafbrushes            234/65536         468/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3773/512000      15092/2048000  ( 0.7%) 
+edges                 2058/256000       8232/1024000  ( 0.8%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             23/32768         230/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           345/65536         690/131072   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13459/16777216 ( 0.1%) 
+entdata               [variable]        5007/393216   ( 1.3%) 
+LDR ambient table      455/65536        1820/262144   ( 0.7%) 
+HDR ambient table      455/65536        1820/262144   ( 0.7%) 
+LDR leaf ambient      1635/65536       45780/1835008  ( 2.5%) 
+HDR leaf ambient       455/65536       12740/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/442      ( 0.2%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]      664501/4194304  (15.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1370
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+3 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (668109 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 33
+Reduced 6 texdatas to 6 (146 bytes to 146)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 191 portalclusters
+ 563 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 25 visible clusters (0.10%)
+Total clusters visible: 24986
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 190
+visdatasize:10751  compressed from 9168
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+Error! Unable to load file "models/props_trainyard/portable_stairs001.dx80.vtx"
+560 faces
+628155 square feet [90454416.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+560 patches before subdivision
+560 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 18236, max 162
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0000 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                 91/8192         1092/98304    ( 1.1%) 
+brushsides             581/65536        4648/524288   ( 0.9%) 
+planes                 270/65536        5400/1310720  ( 0.4%) 
+vertexes               760/65536        9120/786432   ( 1.2%) 
+nodes                  434/65536       13888/2097152  ( 0.7%) 
+texinfos                33/12288        2376/884736   ( 0.3%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                  560/65536       31360/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              363/65536       20328/3670016  ( 0.6%) 
+leaves                 437/65536       13984/2097152  ( 0.7%) 
+leaffaces              624/65536        1248/131072   ( 1.0%) 
+leafbrushes            252/65536         504/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4056/512000      16224/2048000  ( 0.8%) 
+edges                 2231/256000       8924/1024000  ( 0.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             24/32768         240/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           375/65536         750/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       10751/16777216 ( 0.1%) 
+entdata               [variable]        5007/393216   ( 1.3%) 
+LDR ambient table      437/65536        1748/262144   ( 0.7%) 
+HDR ambient table      437/65536        1748/262144   ( 0.7%) 
+LDR leaf ambient      1330/65536       37240/1835008  ( 2.0%) 
+HDR leaf ambient       437/65536       12236/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/440      ( 0.2%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]      668109/4194304  (15.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1466
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (668109 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 33
+Reduced 6 texdatas to 6 (146 bytes to 146)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 191 portalclusters
+ 563 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 25 visible clusters (0.10%)
+Total clusters visible: 24986
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 190
+visdatasize:10751  compressed from 9168
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (668109 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 33
+Reduced 6 texdatas to 6 (146 bytes to 146)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 191 portalclusters
+ 563 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 25 visible clusters (0.10%)
+Total clusters visible: 24986
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 190
+visdatasize:10751  compressed from 9168
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (668109 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 33
+Reduced 6 texdatas to 6 (146 bytes to 146)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 191 portalclusters
+ 563 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 25 visible clusters (0.10%)
+Total clusters visible: 24986
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 190
+visdatasize:10751  compressed from 9168
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_well_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_well_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (668109 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 33
+Reduced 6 texdatas to 6 (146 bytes to 146)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 191 portalclusters
+ 563 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 25 visible clusters (0.10%)
+Total clusters visible: 24986
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 190
+visdatasize:10751  compressed from 9168
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (668109 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 70 texinfos to 33
+Reduced 7 texdatas to 6 (214 bytes to 146)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 191 portalclusters
+ 563 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 25 visible clusters (0.10%)
+Total clusters visible: 24986
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 190
+visdatasize:10751  compressed from 9168
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+591 faces
+628155 square feet [90454416.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+591 patches before subdivision
+16659 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 617531, max 247
+transfer lists:   4.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(102067, 26108, 6221)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(28856, 2446, 87)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(11147, 284, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4799, 36, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2272, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1134, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(592, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(318, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(174, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(97, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(55, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(31, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0018 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 91/32768        1092/393216   ( 0.3%) 
+brushsides             581/65536        4648/524288   ( 0.9%) 
+planes                 270/65536        5400/1310720  ( 0.4%) 
+vertexes               806/65536        9672/786432   ( 1.2%) 
+nodes                  434/65536       13888/2097152  ( 0.7%) 
+texinfos                33/12288        2376/884736   ( 0.3%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                  591/65536       33096/3670016  ( 0.9%) 
+hdr faces              591/65536       33096/3670016  ( 0.9%) 
+origfaces              363/65536       20328/3670016  ( 0.6%) 
+leaves                 437/65536       13984/2097152  ( 0.7%) 
+leaffaces              673/65536        1346/131072   ( 1.0%) 
+leafbrushes            252/65536         504/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4226/512000      16904/2048000  ( 0.8%) 
+edges                 2316/256000       9264/1024000  ( 0.9%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/131072        450/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           681/131072       1362/262144   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      413952/0        ( 0.0%) 
+visdata               [variable]       10751/16777216 ( 0.1%) 
+entdata               [variable]        5007/393216   ( 1.3%) 
+LDR ambient table      437/65536        1748/262144   ( 0.7%) 
+HDR ambient table      437/65536        1748/262144   ( 0.7%) 
+LDR leaf ambient       437/65536       12236/1835008  ( 0.7%) 
+HDR leaf ambient      2146/65536       60088/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/408      ( 0.2%) 
+pakfile               [variable]       89021/0        ( 0.0%) 
+physics               [variable]      668109/4194304  (15.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1574
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (668109 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 70 texinfos to 33
+Reduced 7 texdatas to 6 (214 bytes to 146)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 191 portalclusters
+ 563 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 25 visible clusters (0.10%)
+Total clusters visible: 24986
+Average clusters visible: 130
+Building PAS...
+Average clusters audible: 190
+visdatasize:10751  compressed from 9168
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+591 faces
+628155 square feet [90454416.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+591 patches before subdivision
+16659 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 617531, max 247
+transfer lists:   4.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(102068, 26108, 6221)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(28856, 2446, 87)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(11147, 284, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(4799, 36, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2272, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1134, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(592, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(318, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(174, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(97, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(55, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(31, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(18, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(10, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                 91/32768        1092/393216   ( 0.3%) 
+brushsides             581/65536        4648/524288   ( 0.9%) 
+planes                 270/65536        5400/1310720  ( 0.4%) 
+vertexes               806/65536        9672/786432   ( 1.2%) 
+nodes                  434/65536       13888/2097152  ( 0.7%) 
+texinfos                33/12288        2376/884736   ( 0.3%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                  591/65536       33096/3670016  ( 0.9%) 
+hdr faces              591/65536       33096/3670016  ( 0.9%) 
+origfaces              363/65536       20328/3670016  ( 0.6%) 
+leaves                 437/65536       13984/2097152  ( 0.7%) 
+leaffaces              673/65536        1346/131072   ( 1.0%) 
+leafbrushes            252/65536         504/131072   ( 0.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4226/512000      16904/2048000  ( 0.8%) 
+edges                 2316/256000       9264/1024000  ( 0.9%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             45/131072        450/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           681/131072       1362/262144   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      413952/0        ( 0.0%) 
+visdata               [variable]       10751/16777216 ( 0.1%) 
+entdata               [variable]        5007/393216   ( 1.3%) 
+LDR ambient table      437/65536        1748/262144   ( 0.7%) 
+HDR ambient table      437/65536        1748/262144   ( 0.7%) 
+LDR leaf ambient       437/65536       12236/1835008  ( 0.7%) 
+HDR leaf ambient      2146/65536       60088/1835008  ( 3.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/408      ( 0.2%) 
+pakfile               [variable]       89021/0        ( 0.0%) 
+physics               [variable]      668109/4194304  (15.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1574
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (713449 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 111 texinfos to 74
+Reduced 11 texdatas to 10 (370 bytes to 302)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 357 portalclusters
+1073 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 142 visible clusters (0.22%)
+Total clusters visible: 63855
+Average clusters visible: 178
+Building PAS...
+Average clusters audible: 355
+visdatasize:34341  compressed from 34272
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+1137 faces
+728520 square feet [104906944.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+1137 patches before subdivision
+25627 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1272498, max 280
+transfer lists:   9.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(79472, 23048, 15005)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(15543, 1638, 766)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4513, 152, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1430, 16, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(514, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(191, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(74, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0029 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  16/4096          768/196608   ( 0.4%) 
+brushes                221/32768        2652/393216   ( 0.7%) 
+brushsides            1414/65536       11312/524288   ( 2.2%) 
+planes                 356/65536        7120/1310720  ( 0.5%) 
+vertexes              1466/65536       17592/786432   ( 2.2%) 
+nodes                  809/65536       25888/2097152  ( 1.2%) 
+texinfos                74/12288        5328/884736   ( 0.6%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                 1137/65536       63672/3670016  ( 1.7%) 
+hdr faces             1137/65536       63672/3670016  ( 1.7%) 
+origfaces              753/65536       42168/3670016  ( 1.1%) 
+leaves                 826/65536       26432/2097152  ( 1.3%) 
+leaffaces             1281/65536        2562/131072   ( 2.0%) 
+leafbrushes            474/65536         948/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8363/512000      33452/2048000  ( 1.6%) 
+edges                 4615/256000      18460/1024000  ( 1.8%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            104/131072       1040/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1665/131072       3330/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      589144/0        ( 0.0%) 
+visdata               [variable]       34341/16777216 ( 0.2%) 
+entdata               [variable]       10591/393216   ( 2.7%) 
+LDR ambient table      826/65536        3304/262144   ( 1.3%) 
+HDR ambient table      826/65536        3304/262144   ( 1.3%) 
+LDR leaf ambient       826/65536       23128/1835008  ( 1.3%) 
+HDR leaf ambient      3904/65536      109312/1835008  ( 6.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/406      ( 0.2%) 
+pakfile               [variable]       89021/0        ( 0.0%) 
+physics               [variable]      713449/4194304  (17.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 3060
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (707889 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 124 texinfos to 73
+Reduced 12 texdatas to 11 (391 bytes to 323)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 357 portalclusters
+1073 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 145 visible clusters (0.23%)
+Total clusters visible: 63876
+Average clusters visible: 178
+Building PAS...
+Average clusters audible: 355
+visdatasize:34346  compressed from 34272
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+1065 faces
+690006 square feet [99360960.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+1065 patches before subdivision
+25555 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1263550, max 280
+transfer lists:   9.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(79363, 23015, 14981)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(15526, 1636, 765)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4509, 152, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1429, 16, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(514, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(191, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(74, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0029 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/4096          288/196608   ( 0.1%) 
+brushes                211/32768        2532/393216   ( 0.6%) 
+brushsides            1354/65536       10832/524288   ( 2.1%) 
+planes                 394/65536        7880/1310720  ( 0.6%) 
+vertexes              1386/65536       16632/786432   ( 2.1%) 
+nodes                  749/65536       23968/2097152  ( 1.1%) 
+texinfos                73/12288        5256/884736   ( 0.6%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                 1065/65536       59640/3670016  ( 1.6%) 
+hdr faces             1065/65536       59640/3670016  ( 1.6%) 
+origfaces              681/65536       38136/3670016  ( 1.0%) 
+leaves                 756/65536       24192/2097152  ( 1.2%) 
+leaffaces             1209/65536        2418/131072   ( 1.8%) 
+leafbrushes            464/65536         928/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7787/512000      31148/2048000  ( 1.5%) 
+edges                 4327/256000      17308/1024000  ( 1.7%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            104/131072       1040/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1665/131072       3330/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      589448/0        ( 0.0%) 
+visdata               [variable]       34346/16777216 ( 0.2%) 
+entdata               [variable]       12293/393216   ( 3.1%) 
+LDR ambient table      756/65536        3024/262144   ( 1.2%) 
+HDR ambient table      756/65536        3024/262144   ( 1.2%) 
+LDR leaf ambient       756/65536       21168/1835008  ( 1.2%) 
+HDR leaf ambient      3669/65536      102732/1835008  ( 5.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/670      ( 0.1%) 
+pakfile               [variable]       94341/0        ( 0.0%) 
+physics               [variable]      707889/4194304  (16.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 2916
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (707889 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 124 texinfos to 73
+Reduced 12 texdatas to 11 (391 bytes to 323)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 357 portalclusters
+1073 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 151 visible clusters (0.24%)
+Total clusters visible: 63882
+Average clusters visible: 178
+Building PAS...
+Average clusters audible: 355
+visdatasize:34346  compressed from 34272
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+1065 faces
+690006 square feet [99360960.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+1065 patches before subdivision
+25555 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1263506, max 280
+transfer lists:   9.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(82444, 24981, 17337)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(16089, 1838, 1100)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4621, 174, 110)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1452, 18, 14)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(519, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(192, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(74, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0030 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/4096          288/196608   ( 0.1%) 
+brushes                211/32768        2532/393216   ( 0.6%) 
+brushsides            1354/65536       10832/524288   ( 2.1%) 
+planes                 394/65536        7880/1310720  ( 0.6%) 
+vertexes              1386/65536       16632/786432   ( 2.1%) 
+nodes                  749/65536       23968/2097152  ( 1.1%) 
+texinfos                73/12288        5256/884736   ( 0.6%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                 1065/65536       59640/3670016  ( 1.6%) 
+hdr faces             1065/65536       59640/3670016  ( 1.6%) 
+origfaces              681/65536       38136/3670016  ( 1.0%) 
+leaves                 756/65536       24192/2097152  ( 1.2%) 
+leaffaces             1209/65536        2418/131072   ( 1.8%) 
+leafbrushes            464/65536         928/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7787/512000      31148/2048000  ( 1.5%) 
+edges                 4327/256000      17308/1024000  ( 1.7%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            104/131072       1040/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1665/131072       3330/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      589448/0        ( 0.0%) 
+visdata               [variable]       34346/16777216 ( 0.2%) 
+entdata               [variable]       12439/393216   ( 3.2%) 
+LDR ambient table      756/65536        3024/262144   ( 1.2%) 
+HDR ambient table      756/65536        3024/262144   ( 1.2%) 
+LDR leaf ambient       756/65536       21168/1835008  ( 1.2%) 
+HDR leaf ambient      3671/65536      102788/1835008  ( 5.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/670      ( 0.1%) 
+pakfile               [variable]       94341/0        ( 0.0%) 
+physics               [variable]      707889/4194304  (16.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 2916
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (709009 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 124 texinfos to 73
+Reduced 12 texdatas to 11 (391 bytes to 323)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 359 portalclusters
+1075 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 144 visible clusters (0.22%)
+Total clusters visible: 64165
+Average clusters visible: 178
+Building PAS...
+Average clusters audible: 357
+visdatasize:34377  compressed from 34464
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+1069 faces
+694330 square feet [99983552.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+1069 patches before subdivision
+25741 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1273706, max 282
+transfer lists:   9.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(81934, 24662, 16946)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(15963, 1796, 1024)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4596, 170, 99)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1447, 18, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(518, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(192, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(74, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0029 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/4096          288/196608   ( 0.1%) 
+brushes                215/32768        2580/393216   ( 0.7%) 
+brushsides            1378/65536       11024/524288   ( 2.1%) 
+planes                 394/65536        7880/1310720  ( 0.6%) 
+vertexes              1390/65536       16680/786432   ( 2.1%) 
+nodes                  755/65536       24160/2097152  ( 1.2%) 
+texinfos                73/12288        5256/884736   ( 0.6%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                 1069/65536       59864/3670016  ( 1.6%) 
+hdr faces             1069/65536       59864/3670016  ( 1.6%) 
+origfaces              689/65536       38584/3670016  ( 1.1%) 
+leaves                 762/65536       24384/2097152  ( 1.2%) 
+leaffaces             1215/65536        2430/131072   ( 1.9%) 
+leafbrushes            468/65536         936/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7845/512000      31380/2048000  ( 1.5%) 
+edges                 4360/256000      17440/1024000  ( 1.7%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            110/131072       1100/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1764/131072       3528/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      600156/0        ( 0.0%) 
+visdata               [variable]       34377/16777216 ( 0.2%) 
+entdata               [variable]       12463/393216   ( 3.2%) 
+LDR ambient table      762/65536        3048/262144   ( 1.2%) 
+HDR ambient table      762/65536        3048/262144   ( 1.2%) 
+LDR leaf ambient       762/65536       21336/1835008  ( 1.2%) 
+HDR leaf ambient      3690/65536      103320/1835008  ( 5.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/670      ( 0.1%) 
+pakfile               [variable]       94341/0        ( 0.0%) 
+physics               [variable]      709009/4194304  (16.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 2932
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (709009 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 124 texinfos to 73
+Reduced 12 texdatas to 11 (391 bytes to 323)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 359 portalclusters
+1075 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 141 visible clusters (0.22%)
+Total clusters visible: 64154
+Average clusters visible: 178
+Building PAS...
+Average clusters audible: 357
+visdatasize:34375  compressed from 34464
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+1069 faces
+694899 square feet [100065472.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+1069 patches before subdivision
+25741 patches after subdivision
+4 direct lights
+0..
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (716781 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 132 texinfos to 81
+Reduced 12 texdatas to 11 (391 bytes to 323)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 359 portalclusters
+1075 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 141 visible clusters (0.22%)
+Total clusters visible: 64154
+Average clusters visible: 178
+Building PAS...
+Average clusters audible: 357
+visdatasize:34375  compressed from 34464
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+1153 faces
+735091 square feet [105853120.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+1153 patches before subdivision
+25825 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1278154, max 282
+transfer lists:   9.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(82060, 24709, 16988)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(15983, 1800, 1028)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4600, 170, 100)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1448, 18, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(518, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(192, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(74, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/4096          960/196608   ( 0.5%) 
+brushes                229/32768        2748/393216   ( 0.7%) 
+brushsides            1462/65536       11696/524288   ( 2.2%) 
+planes                 394/65536        7880/1310720  ( 0.6%) 
+vertexes              1502/65536       18024/786432   ( 2.3%) 
+nodes                  839/65536       26848/2097152  ( 1.3%) 
+texinfos                81/12288        5832/884736   ( 0.7%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                 1153/65536       64568/3670016  ( 1.8%) 
+hdr faces             1153/65536       64568/3670016  ( 1.8%) 
+origfaces              773/65536       43288/3670016  ( 1.2%) 
+leaves                 860/65536       27520/2097152  ( 1.3%) 
+leaffaces             1299/65536        2598/131072   ( 2.0%) 
+leafbrushes            482/65536         964/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8517/512000      34068/2048000  ( 1.7%) 
+edges                 4696/256000      18784/1024000  ( 1.8%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            110/131072       1100/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1764/131072       3528/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      600156/0        ( 0.0%) 
+visdata               [variable]       34375/16777216 ( 0.2%) 
+entdata               [variable]       14111/393216   ( 3.6%) 
+LDR ambient table      860/65536        3440/262144   ( 1.3%) 
+HDR ambient table      860/65536        3440/262144   ( 1.3%) 
+LDR leaf ambient       860/65536       24080/1835008  ( 1.3%) 
+HDR leaf ambient      4041/65536      113148/1835008  ( 6.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/670      ( 0.1%) 
+pakfile               [variable]       94341/0        ( 0.0%) 
+physics               [variable]      716781/4194304  (17.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 3100
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (711225 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 128 texinfos to 77
+Reduced 12 texdatas to 11 (391 bytes to 323)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 359 portalclusters
+1075 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 140 visible clusters (0.22%)
+Total clusters visible: 64153
+Average clusters visible: 178
+Building PAS...
+Average clusters audible: 357
+visdatasize:34375  compressed from 34464
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+1093 faces
+697231 square feet [100401344.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+1093 patches before subdivision
+25767 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1275420, max 282
+transfer lists:   9.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(82001, 24686, 16966)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(15973, 1798, 1025)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4598, 170, 99)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1447, 18, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(518, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(192, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(74, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0031 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                219/32768        2628/393216   ( 0.7%) 
+brushsides            1402/65536       11216/524288   ( 2.1%) 
+planes                 390/65536        7800/1310720  ( 0.6%) 
+vertexes              1422/65536       17064/786432   ( 2.2%) 
+nodes                  779/65536       24928/2097152  ( 1.2%) 
+texinfos                77/12288        5544/884736   ( 0.6%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                 1093/65536       61208/3670016  ( 1.7%) 
+hdr faces             1093/65536       61208/3670016  ( 1.7%) 
+origfaces              713/65536       39928/3670016  ( 1.1%) 
+leaves                 790/65536       25280/2097152  ( 1.2%) 
+leaffaces             1239/65536        2478/131072   ( 1.9%) 
+leafbrushes            472/65536         944/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8037/512000      32148/2048000  ( 1.6%) 
+edges                 4458/256000      17832/1024000  ( 1.7%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            110/131072       1100/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1764/131072       3528/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      600156/0        ( 0.0%) 
+visdata               [variable]       34375/16777216 ( 0.2%) 
+entdata               [variable]       12931/393216   ( 3.3%) 
+LDR ambient table      790/65536        3160/262144   ( 1.2%) 
+HDR ambient table      790/65536        3160/262144   ( 1.2%) 
+LDR leaf ambient       790/65536       22120/1835008  ( 1.2%) 
+HDR leaf ambient      3716/65536      104048/1835008  ( 5.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/670      ( 0.1%) 
+pakfile               [variable]       94341/0        ( 0.0%) 
+physics               [variable]      711225/4194304  (17.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 2980
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (711225 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 128 texinfos to 77
+Reduced 12 texdatas to 11 (391 bytes to 323)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 359 portalclusters
+1075 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 142 visible clusters (0.22%)
+Total clusters visible: 64165
+Average clusters visible: 178
+Building PAS...
+Average clusters audible: 357
+visdatasize:34376  compressed from 34464
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+1093 faces
+697231 square feet [100401344.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+1093 patches before subdivision
+25767 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1275420, max 282
+transfer lists:   9.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(82001, 24686, 16966)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(15973, 1798, 1025)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4598, 170, 99)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1447, 18, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(518, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(192, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(74, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(29, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(12, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0036 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                219/32768        2628/393216   ( 0.7%) 
+brushsides            1402/65536       11216/524288   ( 2.1%) 
+planes                 390/65536        7800/1310720  ( 0.6%) 
+vertexes              1422/65536       17064/786432   ( 2.2%) 
+nodes                  779/65536       24928/2097152  ( 1.2%) 
+texinfos                77/12288        5544/884736   ( 0.6%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                 1093/65536       61208/3670016  ( 1.7%) 
+hdr faces             1093/65536       61208/3670016  ( 1.7%) 
+origfaces              713/65536       39928/3670016  ( 1.1%) 
+leaves                 790/65536       25280/2097152  ( 1.2%) 
+leaffaces             1239/65536        2478/131072   ( 1.9%) 
+leafbrushes            472/65536         944/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             8037/512000      32148/2048000  ( 1.6%) 
+edges                 4458/256000      17832/1024000  ( 1.7%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          4/16384         352/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            110/131072       1100/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1764/131072       3528/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      600156/0        ( 0.0%) 
+visdata               [variable]       34376/16777216 ( 0.2%) 
+entdata               [variable]       12926/393216   ( 3.3%) 
+LDR ambient table      790/65536        3160/262144   ( 1.2%) 
+HDR ambient table      790/65536        3160/262144   ( 1.2%) 
+LDR leaf ambient       790/65536       22120/1835008  ( 1.2%) 
+HDR leaf ambient      3716/65536      104048/1835008  ( 5.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/670      ( 0.1%) 
+pakfile               [variable]       94341/0        ( 0.0%) 
+physics               [variable]      711225/4194304  (17.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 2980
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+12 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (723801 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 154 texinfos to 103
+Reduced 13 texdatas to 12 (416 bytes to 348)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 383 portalclusters
+1190 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 274 visible clusters (0.39%)
+Total clusters visible: 69451
+Average clusters visible: 181
+Building PAS...
+Average clusters audible: 380
+visdatasize:38757  compressed from 36768
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+1243 faces
+721357 square feet [103875472.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+1243 patches before subdivision
+30359 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1655432, max 293
+transfer lists:  12.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(87425, 31528, 25359)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19668, 2495, 1903)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6461, 252, 206)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2611, 30, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1232, 4, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(633, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(341, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(188, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(105, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(59, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                255/32768        3060/393216   ( 0.8%) 
+brushsides            1762/65536       14096/524288   ( 2.7%) 
+planes                 678/65536       13560/1310720  ( 1.0%) 
+vertexes              1612/65536       19344/786432   ( 2.5%) 
+nodes                  810/65536       25920/2097152  ( 1.2%) 
+texinfos               103/12288        7416/884736   ( 0.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                 1243/65536       69608/3670016  ( 1.9%) 
+hdr faces             1243/65536       69608/3670016  ( 1.9%) 
+origfaces              835/65536       46760/3670016  ( 1.3%) 
+leaves                 821/65536       26272/2097152  ( 1.3%) 
+leaffaces             1398/65536        2796/131072   ( 2.1%) 
+leafbrushes            527/65536        1054/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9278/512000      37112/2048000  ( 1.8%) 
+edges                 5164/256000      20656/1024000  ( 2.0%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          8/16384         704/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            135/131072       1350/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          2148/131072       4296/262144   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      680128/0        ( 0.0%) 
+visdata               [variable]       38757/16777216 ( 0.2%) 
+entdata               [variable]       15117/393216   ( 3.8%) 
+LDR ambient table      821/65536        3284/262144   ( 1.3%) 
+HDR ambient table      821/65536        3284/262144   ( 1.3%) 
+LDR leaf ambient       821/65536       22988/1835008  ( 1.3%) 
+HDR leaf ambient      4118/65536      115304/1835008  ( 6.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1478     ( 0.1%) 
+pakfile               [variable]      151265/0        ( 0.0%) 
+physics               [variable]      723801/4194304  (17.3%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 3433
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (723801 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 154 texinfos to 103
+Reduced 13 texdatas to 12 (416 bytes to 348)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 383 portalclusters
+1190 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 274 visible clusters (0.39%)
+Total clusters visible: 69451
+Average clusters visible: 181
+Building PAS...
+Average clusters audible: 380
+visdatasize:38757  compressed from 36768
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+1243 faces
+721357 square feet [103875472.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+1243 patches before subdivision
+30359 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1655432, max 293
+transfer lists:  12.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(87425, 31528, 25359)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19668, 2495, 1903)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6461, 252, 206)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2611, 30, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1232, 4, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(633, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(341, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(188, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(105, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(59, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0047 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                255/32768        3060/393216   ( 0.8%) 
+brushsides            1762/65536       14096/524288   ( 2.7%) 
+planes                 678/65536       13560/1310720  ( 1.0%) 
+vertexes              1612/65536       19344/786432   ( 2.5%) 
+nodes                  810/65536       25920/2097152  ( 1.2%) 
+texinfos               103/12288        7416/884736   ( 0.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                 1243/65536       69608/3670016  ( 1.9%) 
+hdr faces             1243/65536       69608/3670016  ( 1.9%) 
+origfaces              835/65536       46760/3670016  ( 1.3%) 
+leaves                 821/65536       26272/2097152  ( 1.3%) 
+leaffaces             1398/65536        2796/131072   ( 2.1%) 
+leafbrushes            527/65536        1054/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9278/512000      37112/2048000  ( 1.8%) 
+edges                 5164/256000      20656/1024000  ( 2.0%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          8/16384         704/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            135/131072       1350/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          2148/131072       4296/262144   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      680128/0        ( 0.0%) 
+visdata               [variable]       38757/16777216 ( 0.2%) 
+entdata               [variable]       15117/393216   ( 3.8%) 
+LDR ambient table      821/65536        3284/262144   ( 1.3%) 
+HDR ambient table      821/65536        3284/262144   ( 1.3%) 
+LDR leaf ambient       821/65536       22988/1835008  ( 1.3%) 
+HDR leaf ambient      4118/65536      115304/1835008  ( 6.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1478     ( 0.1%) 
+pakfile               [variable]      151265/0        ( 0.0%) 
+physics               [variable]      723801/4194304  (17.3%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 3433
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+14 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (723801 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 154 texinfos to 103
+Reduced 13 texdatas to 12 (416 bytes to 348)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 383 portalclusters
+1190 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 271 visible clusters (0.39%)
+Total clusters visible: 69446
+Average clusters visible: 181
+Building PAS...
+Average clusters audible: 380
+visdatasize:38757  compressed from 36768
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+1243 faces
+721357 square feet [103875472.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+1243 patches before subdivision
+30359 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1655432, max 293
+transfer lists:  12.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(87425, 31528, 25359)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19668, 2495, 1903)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6461, 252, 206)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2611, 30, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1232, 4, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(633, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(341, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(188, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(105, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(59, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                255/32768        3060/393216   ( 0.8%) 
+brushsides            1762/65536       14096/524288   ( 2.7%) 
+planes                 678/65536       13560/1310720  ( 1.0%) 
+vertexes              1612/65536       19344/786432   ( 2.5%) 
+nodes                  810/65536       25920/2097152  ( 1.2%) 
+texinfos               103/12288        7416/884736   ( 0.8%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                 1243/65536       69608/3670016  ( 1.9%) 
+hdr faces             1243/65536       69608/3670016  ( 1.9%) 
+origfaces              835/65536       46760/3670016  ( 1.3%) 
+leaves                 821/65536       26272/2097152  ( 1.3%) 
+leaffaces             1398/65536        2796/131072   ( 2.1%) 
+leafbrushes            527/65536        1054/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9278/512000      37112/2048000  ( 1.8%) 
+edges                 5164/256000      20656/1024000  ( 2.0%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          8/16384         704/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            135/131072       1350/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          2148/131072       4296/262144   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      680128/0        ( 0.0%) 
+visdata               [variable]       38757/16777216 ( 0.2%) 
+entdata               [variable]       15117/393216   ( 3.8%) 
+LDR ambient table      821/65536        3284/262144   ( 1.3%) 
+HDR ambient table      821/65536        3284/262144   ( 1.3%) 
+LDR leaf ambient       821/65536       22988/1835008  ( 1.3%) 
+HDR leaf ambient      4118/65536      115304/1835008  ( 6.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1478     ( 0.1%) 
+pakfile               [variable]      151265/0        ( 0.0%) 
+physics               [variable]      723801/4194304  (17.3%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 3433
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (723833 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 152 texinfos to 101
+Reduced 12 texdatas to 11 (391 bytes to 323)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 383 portalclusters
+1186 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 265 visible clusters (0.38%)
+Total clusters visible: 69574
+Average clusters visible: 181
+Building PAS...
+Average clusters audible: 380
+visdatasize:38771  compressed from 36768
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+1242 faces
+721375 square feet [103878080.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+1242 patches before subdivision
+30168 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1646411, max 294
+transfer lists:  12.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(87353, 31431, 25185)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19662, 2489, 1891)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6459, 251, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(2611, 30, 27)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1232, 4, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(633, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(341, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(188, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(105, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(59, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(33, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(19, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(11, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(6, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(3, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0031 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                255/32768        3060/393216   ( 0.8%) 
+brushsides            1762/65536       14096/524288   ( 2.7%) 
+planes                 676/65536       13520/1310720  ( 1.0%) 
+vertexes              1610/65536       19320/786432   ( 2.5%) 
+nodes                  810/65536       25920/2097152  ( 1.2%) 
+texinfos               101/12288        7272/884736   ( 0.8%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                 1242/65536       69552/3670016  ( 1.9%) 
+hdr faces             1242/65536       69552/3670016  ( 1.9%) 
+origfaces              837/65536       46872/3670016  ( 1.3%) 
+leaves                 821/65536       26272/2097152  ( 1.3%) 
+leaffaces             1412/65536        2824/131072   ( 2.2%) 
+leafbrushes            531/65536        1062/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9282/512000      37128/2048000  ( 1.8%) 
+edges                 5169/256000      20676/1024000  ( 2.0%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          8/16384         704/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            135/131072       1350/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          2157/131072       4314/262144   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      680236/0        ( 0.0%) 
+visdata               [variable]       38771/16777216 ( 0.2%) 
+entdata               [variable]       15137/393216   ( 3.8%) 
+LDR ambient table      821/65536        3284/262144   ( 1.3%) 
+HDR ambient table      821/65536        3284/262144   ( 1.3%) 
+LDR leaf ambient       821/65536       22988/1835008  ( 1.3%) 
+HDR leaf ambient      4110/65536      115080/1835008  ( 6.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1478     ( 0.1%) 
+pakfile               [variable]      151265/0        ( 0.0%) 
+physics               [variable]      723833/4194304  (17.3%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 3431
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity tf_gamerules (-0.00 -192.00 192.00) leaked!
+--- MAP LEAKED ---
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+LoadPortals: couldn't read c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity tf_gamerules (-0.00 -192.00 192.00) leaked!
+--- MAP LEAKED ---
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+LoadPortals: couldn't read c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (736381 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 210 texinfos to 92
+Reduced 11 texdatas to 10 (366 bytes to 298)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 209 portalclusters
+ 569 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 44 visible clusters (0.15%)
+Total clusters visible: 28725
+Average clusters visible: 137
+Building PAS...
+Average clusters audible: 169
+visdatasize:12291  compressed from 13376
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+804 faces
+193481 square feet [27861346.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+804 patches before subdivision
+19900 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1770856, max 357
+transfer lists:  13.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(34669, 16323, 20271)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4416, 1125, 1798)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(697, 93, 204)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(125, 9, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(23, 1, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                292/32768        3504/393216   ( 0.9%) 
+brushsides            2002/65536       16016/524288   ( 3.1%) 
+planes                 718/65536       14360/1310720  ( 1.1%) 
+vertexes              1258/65536       15096/786432   ( 1.9%) 
+nodes                  567/65536       18144/2097152  ( 0.9%) 
+texinfos                92/12288        6624/884736   ( 0.7%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                  804/65536       45024/3670016  ( 1.2%) 
+hdr faces              804/65536       45024/3670016  ( 1.2%) 
+origfaces              538/65536       30128/3670016  ( 0.8%) 
+leaves                 578/65536       18496/2097152  ( 0.9%) 
+leaffaces              964/65536        1928/131072   ( 1.5%) 
+leafbrushes            570/65536        1140/131072   ( 0.9%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             5938/512000      23752/2048000  ( 1.2%) 
+edges                 3517/256000      14068/1024000  ( 1.4%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          8/16384         704/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             79/131072        790/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1248/131072       2496/262144   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      488044/0        ( 0.0%) 
+visdata               [variable]       12291/16777216 ( 0.1%) 
+entdata               [variable]       18786/393216   ( 4.8%) 
+LDR ambient table      578/65536        2312/262144   ( 0.9%) 
+HDR ambient table      578/65536        2312/262144   ( 0.9%) 
+LDR leaf ambient       578/65536       16184/1835008  ( 0.9%) 
+HDR leaf ambient      2626/65536       73528/1835008  ( 4.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1748     ( 0.1%) 
+pakfile               [variable]      161913/0        ( 0.0%) 
+physics               [variable]      736381/4194304  (17.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 2156
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (737809 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 217 texinfos to 94
+Reduced 11 texdatas to 10 (366 bytes to 298)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 197 portalclusters
+ 523 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 50 visible clusters (0.17%)
+Total clusters visible: 29831
+Average clusters visible: 151
+Building PAS...
+Average clusters audible: 196
+visdatasize:11416  compressed from 12608
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+792 faces
+194733 square feet [28041570.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+792 patches before subdivision
+19930 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1789728, max 350
+transfer lists:  13.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(35383, 16485, 20437)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4220, 1110, 1810)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(638, 92, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(105, 9, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18, 1, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0021 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/4096          672/196608   ( 0.3%) 
+brushes                292/32768        3504/393216   ( 0.9%) 
+brushsides            2002/65536       16016/524288   ( 3.1%) 
+planes                 718/65536       14360/1310720  ( 1.1%) 
+vertexes              1264/65536       15168/786432   ( 1.9%) 
+nodes                  574/65536       18368/2097152  ( 0.9%) 
+texinfos                94/12288        6768/884736   ( 0.8%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                  792/65536       44352/3670016  ( 1.2%) 
+hdr faces              792/65536       44352/3670016  ( 1.2%) 
+origfaces              549/65536       30744/3670016  ( 0.8%) 
+leaves                 589/65536       18848/2097152  ( 0.9%) 
+leaffaces              937/65536        1874/131072   ( 1.4%) 
+leafbrushes            570/65536        1140/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5934/512000      23736/2048000  ( 1.2%) 
+edges                 3508/256000      14032/1024000  ( 1.4%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          8/16384         704/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             78/131072        780/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1224/131072       2448/262144   ( 0.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      489304/0        ( 0.0%) 
+visdata               [variable]       11416/16777216 ( 0.1%) 
+entdata               [variable]       20335/393216   ( 5.2%) 
+LDR ambient table      589/65536        2356/262144   ( 0.9%) 
+HDR ambient table      589/65536        2356/262144   ( 0.9%) 
+LDR leaf ambient       589/65536       16492/1835008  ( 0.9%) 
+HDR leaf ambient      2633/65536       73724/1835008  ( 4.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1754     ( 0.1%) 
+pakfile               [variable]      161913/0        ( 0.0%) 
+physics               [variable]      737809/4194304  (17.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 2132
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (737809 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 217 texinfos to 94
+Reduced 11 texdatas to 10 (366 bytes to 298)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 197 portalclusters
+ 523 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 50 visible clusters (0.17%)
+Total clusters visible: 29831
+Average clusters visible: 151
+Building PAS...
+Average clusters audible: 196
+visdatasize:11416  compressed from 12608
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+792 faces
+194733 square feet [28041570.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+792 patches before subdivision
+19930 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1789728, max 350
+transfer lists:  13.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(35383, 16485, 20437)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4220, 1110, 1810)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(638, 92, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(105, 9, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(18, 1, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/4096          672/196608   ( 0.3%) 
+brushes                292/32768        3504/393216   ( 0.9%) 
+brushsides            2002/65536       16016/524288   ( 3.1%) 
+planes                 718/65536       14360/1310720  ( 1.1%) 
+vertexes              1264/65536       15168/786432   ( 1.9%) 
+nodes                  574/65536       18368/2097152  ( 0.9%) 
+texinfos                94/12288        6768/884736   ( 0.8%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                  792/65536       44352/3670016  ( 1.2%) 
+hdr faces              792/65536       44352/3670016  ( 1.2%) 
+origfaces              549/65536       30744/3670016  ( 0.8%) 
+leaves                 589/65536       18848/2097152  ( 0.9%) 
+leaffaces              937/65536        1874/131072   ( 1.4%) 
+leafbrushes            570/65536        1140/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5934/512000      23736/2048000  ( 1.2%) 
+edges                 3508/256000      14032/1024000  ( 1.4%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          8/16384         704/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             78/131072        780/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1224/131072       2448/262144   ( 0.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      489304/0        ( 0.0%) 
+visdata               [variable]       11416/16777216 ( 0.1%) 
+entdata               [variable]       20336/393216   ( 5.2%) 
+LDR ambient table      589/65536        2356/262144   ( 0.9%) 
+HDR ambient table      589/65536        2356/262144   ( 0.9%) 
+LDR leaf ambient       589/65536       16492/1835008  ( 0.9%) 
+HDR leaf ambient      2633/65536       73724/1835008  ( 4.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1754     ( 0.1%) 
+pakfile               [variable]      161913/0        ( 0.0%) 
+physics               [variable]      737809/4194304  (17.6%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 2132
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (741140 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 243 texinfos to 95
+Reduced 12 texdatas to 10 (388 bytes to 298)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 195 portalclusters
+ 526 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 46 visible clusters (0.16%)
+Total clusters visible: 28647
+Average clusters visible: 146
+Building PAS...
+Average clusters audible: 194
+visdatasize:11298  compressed from 12480
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+793 faces
+201389 square feet [29000034.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+793 patches before subdivision
+20295 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1791716, max 347
+transfer lists:  13.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(35289, 16440, 20373)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4218, 1109, 1809)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(638, 92, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(105, 9, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 1, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/4096          672/196608   ( 0.3%) 
+brushes                300/32768        3600/393216   ( 0.9%) 
+brushsides            2054/65536       16432/524288   ( 3.1%) 
+planes                 730/65536       14600/1310720  ( 1.1%) 
+vertexes              1258/65536       15096/786432   ( 1.9%) 
+nodes                  566/65536       18112/2097152  ( 0.9%) 
+texinfos                95/12288        6840/884736   ( 0.8%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                  793/65536       44408/3670016  ( 1.2%) 
+hdr faces              793/65536       44408/3670016  ( 1.2%) 
+origfaces              544/65536       30464/3670016  ( 0.8%) 
+leaves                 581/65536       18592/2097152  ( 0.9%) 
+leaffaces              931/65536        1862/131072   ( 1.4%) 
+leafbrushes            594/65536        1188/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5910/512000      23640/2048000  ( 1.2%) 
+edges                 3490/256000      13960/1024000  ( 1.4%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          8/16384         704/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             69/131072        690/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1089/131072       2178/262144   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      498208/0        ( 0.0%) 
+visdata               [variable]       11298/16777216 ( 0.1%) 
+entdata               [variable]       20325/393216   ( 5.2%) 
+LDR ambient table      581/65536        2324/262144   ( 0.9%) 
+HDR ambient table      581/65536        2324/262144   ( 0.9%) 
+LDR leaf ambient       581/65536       16268/1835008  ( 0.9%) 
+HDR leaf ambient      2616/65536       73248/1835008  ( 4.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1754     ( 0.1%) 
+pakfile               [variable]      161913/0        ( 0.0%) 
+physics               [variable]      741140/4194304  (17.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 2126
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+11 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (741140 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 243 texinfos to 95
+Reduced 12 texdatas to 10 (388 bytes to 298)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 195 portalclusters
+ 526 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 46 visible clusters (0.16%)
+Total clusters visible: 28647
+Average clusters visible: 146
+Building PAS...
+Average clusters audible: 194
+visdatasize:11298  compressed from 12480
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+793 faces
+201389 square feet [29000034.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+793 patches before subdivision
+20295 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1791716, max 347
+transfer lists:  13.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(35289, 16440, 20373)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4218, 1109, 1809)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(638, 92, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(105, 9, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 1, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/4096          672/196608   ( 0.3%) 
+brushes                300/32768        3600/393216   ( 0.9%) 
+brushsides            2054/65536       16432/524288   ( 3.1%) 
+planes                 730/65536       14600/1310720  ( 1.1%) 
+vertexes              1258/65536       15096/786432   ( 1.9%) 
+nodes                  566/65536       18112/2097152  ( 0.9%) 
+texinfos                95/12288        6840/884736   ( 0.8%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                  793/65536       44408/3670016  ( 1.2%) 
+hdr faces              793/65536       44408/3670016  ( 1.2%) 
+origfaces              544/65536       30464/3670016  ( 0.8%) 
+leaves                 581/65536       18592/2097152  ( 0.9%) 
+leaffaces              931/65536        1862/131072   ( 1.4%) 
+leafbrushes            594/65536        1188/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5910/512000      23640/2048000  ( 1.2%) 
+edges                 3490/256000      13960/1024000  ( 1.4%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          8/16384         704/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             69/131072        690/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1089/131072       2178/262144   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      498208/0        ( 0.0%) 
+visdata               [variable]       11298/16777216 ( 0.1%) 
+entdata               [variable]       20236/393216   ( 5.1%) 
+LDR ambient table      581/65536        2324/262144   ( 0.9%) 
+HDR ambient table      581/65536        2324/262144   ( 0.9%) 
+LDR leaf ambient       581/65536       16268/1835008  ( 0.9%) 
+HDR leaf ambient      2616/65536       73248/1835008  ( 4.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1754     ( 0.1%) 
+pakfile               [variable]      161913/0        ( 0.0%) 
+physics               [variable]      741140/4194304  (17.7%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 2126
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (743236 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 247 texinfos to 95
+Reduced 12 texdatas to 10 (388 bytes to 298)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 198 portalclusters
+ 533 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 47 visible clusters (0.16%)
+Total clusters visible: 29283
+Average clusters visible: 147
+Building PAS...
+Average clusters audible: 195
+visdatasize:11445  compressed from 12672
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+810 faces
+230978 square feet [33260900.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+810 patches before subdivision
+20306 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9.
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (749060 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 250 texinfos to 88
+Reduced 13 texdatas to 11 (406 bytes to 316)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 198 portalclusters
+ 533 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 47 visible clusters (0.16%)
+Total clusters visible: 29283
+Average clusters visible: 147
+Building PAS...
+Average clusters audible: 195
+visdatasize:11445  compressed from 12672
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+874 faces
+258228 square feet [37184868.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+874 patches before subdivision
+20370 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1789604, max 347
+transfer lists:  13.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(35298, 16444, 20379)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4217, 1109, 1809)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(638, 92, 205)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(105, 9, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(19, 1, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(3, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  14/4096          672/196608   ( 0.3%) 
+brushes                318/32768        3816/393216   ( 1.0%) 
+brushsides            2162/65536       17296/524288   ( 3.3%) 
+planes                 730/65536       14600/1310720  ( 1.1%) 
+vertexes              1399/65536       16788/786432   ( 2.1%) 
+nodes                  631/65536       20192/2097152  ( 1.0%) 
+texinfos                88/12288        6336/884736   ( 0.7%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                  874/65536       48944/3670016  ( 1.3%) 
+hdr faces              874/65536       48944/3670016  ( 1.3%) 
+origfaces              590/65536       33040/3670016  ( 0.9%) 
+leaves                 646/65536       20672/2097152  ( 1.0%) 
+leaffaces             1017/65536        2034/131072   ( 1.6%) 
+leafbrushes            622/65536        1244/131072   ( 0.9%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             6494/512000      25976/2048000  ( 1.3%) 
+edges                 3822/256000      15288/1024000  ( 1.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          8/16384         704/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             71/131072        710/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1110/131072       2220/262144   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      498200/0        ( 0.0%) 
+visdata               [variable]       11445/16777216 ( 0.1%) 
+entdata               [variable]       21330/393216   ( 5.4%) 
+LDR ambient table      646/65536        2584/262144   ( 1.0%) 
+HDR ambient table      646/65536        2584/262144   ( 1.0%) 
+LDR leaf ambient       646/65536       18088/1835008  ( 1.0%) 
+HDR leaf ambient      2523/65536       70644/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1890     ( 0.1%) 
+pakfile               [variable]      183621/0        ( 0.0%) 
+physics               [variable]      749060/4194304  (17.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 2364
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+10 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 8 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (752390 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 273 texinfos to 105
+Reduced 13 texdatas to 11 (406 bytes to 316)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 198 portalclusters
+ 533 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 49 visible clusters (0.17%)
+Total clusters visible: 29285
+Average clusters visible: 147
+Building PAS...
+Average clusters audible: 195
+visdatasize:11445  compressed from 12672
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+910 faces
+264542 square feet [38094180.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+910 patches before subdivision
+20406 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1791563, max 347
+transfer lists:  13.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43292, 21775, 26588)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5686, 1650, 2689)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(929, 151, 340)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(164, 15, 48)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(31, 2, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/4096          960/196608   ( 0.5%) 
+brushes                324/32768        3888/393216   ( 1.0%) 
+brushsides            2198/65536       17584/524288   ( 3.4%) 
+planes                 752/65536       15040/1310720  ( 1.1%) 
+vertexes              1447/65536       17364/786432   ( 2.2%) 
+nodes                  667/65536       21344/2097152  ( 1.0%) 
+texinfos               105/12288        7560/884736   ( 0.9%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                  910/65536       50960/3670016  ( 1.4%) 
+hdr faces              910/65536       50960/3670016  ( 1.4%) 
+origfaces              626/65536       35056/3670016  ( 1.0%) 
+leaves                 688/65536       22016/2097152  ( 1.0%) 
+leaffaces             1053/65536        2106/131072   ( 1.6%) 
+leafbrushes            628/65536        1256/131072   ( 1.0%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             6782/512000      27128/2048000  ( 1.3%) 
+edges                 3966/256000      15864/1024000  ( 1.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         14/16384        1232/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             71/131072        710/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1110/131072       2220/262144   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      498200/0        ( 0.0%) 
+visdata               [variable]       11445/16777216 ( 0.1%) 
+entdata               [variable]       24625/393216   ( 6.3%) 
+LDR ambient table      688/65536        2752/262144   ( 1.0%) 
+HDR ambient table      688/65536        2752/262144   ( 1.0%) 
+LDR leaf ambient       688/65536       19264/1835008  ( 1.0%) 
+HDR leaf ambient      2918/65536       81704/1835008  ( 4.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1890     ( 0.1%) 
+pakfile               [variable]      183621/0        ( 0.0%) 
+physics               [variable]      752390/4194304  (17.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 2436
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 16 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (758150 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 273 texinfos to 105
+Reduced 13 texdatas to 11 (406 bytes to 316)
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+ 198 portalclusters
+ 529 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 32 visible clusters (0.11%)
+Total clusters visible: 28948
+Average clusters visible: 146
+Building PAS...
+Average clusters audible: 195
+visdatasize:11435  compressed from 12672
+writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+993 faces
+267806 square feet [38564180.00 square inches]
+11 Displacements
+11283 Square Feet [1624792.75 Square Inches]
+993 patches before subdivision
+21107 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1877548, max 355
+transfer lists:  14.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43468, 21820, 26593)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5653, 1640, 2662)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(917, 150, 334)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(161, 15, 46)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(30, 2, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/4096          960/196608   ( 0.5%) 
+brushes                338/32768        4056/393216   ( 1.0%) 
+brushsides            2316/65536       18528/524288   ( 3.5%) 
+planes                 812/65536       16240/1310720  ( 1.2%) 
+vertexes              1555/65536       18660/786432   ( 2.4%) 
+nodes                  673/65536       21536/2097152  ( 1.0%) 
+texinfos               105/12288        7560/884736   ( 0.9%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts            3179/0           63580/0        ( 0.0%) 
+disp_tris             5632/0           11264/0        ( 0.0%) 
+disp_lmsamples       33473/0           33473/0        ( 0.0%) 
+faces                  993/65536       55608/3670016  ( 1.5%) 
+hdr faces              993/65536       55608/3670016  ( 1.5%) 
+origfaces              694/65536       38864/3670016  ( 1.1%) 
+leaves                 694/65536       22208/2097152  ( 1.1%) 
+leaffaces             1205/65536        2410/131072   ( 1.8%) 
+leafbrushes            670/65536        1340/131072   ( 1.0%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             7472/512000      29888/2048000  ( 1.5%) 
+edges                 4370/256000      17480/1024000  ( 1.7%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         14/16384        1232/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             86/131072        860/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1401/131072       2802/262144   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 8/1024         2816/360448   ( 0.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      520144/0        ( 0.0%) 
+visdata               [variable]       11435/16777216 ( 0.1%) 
+entdata               [variable]       24625/393216   ( 6.3%) 
+LDR ambient table      694/65536        2776/262144   ( 1.1%) 
+HDR ambient table      694/65536        2776/262144   ( 1.1%) 
+LDR leaf ambient       694/65536       19432/1835008  ( 1.1%) 
+HDR leaf ambient      2916/65536       81648/1835008  ( 4.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1890     ( 0.1%) 
+pakfile               [variable]      183621/0        ( 0.0%) 
+physics               [variable]      758150/4194304  (18.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 2684
+Writing c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+14 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_duskteu.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/kotf_duskteu/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-672.00 -31.11 1520.00) leaked!
+--- MAP LEAKED ---
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_duskteu.prt
+LoadPortals: couldn't read c:\users\ashjo\documents\tf2c\kotf_duskteu.prt

@@ -1,0 +1,1332 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\test1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\test1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5879 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 11
+Reduced 6 texdatas to 6 (150 bytes to 150)
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\test1.bsp
+reading c:\users\ashjo\documents\tf2c\test1.prt
+  16 portalclusters
+  32 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 248
+Average clusters visible: 15
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\test1.bsp
+76 faces
+183409 square feet [26411008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 patches before subdivision
+2076 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264, max 28
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 17/32768         204/393216   ( 0.1%) 
+brushsides             110/65536         880/524288   ( 0.2%) 
+planes                 188/65536        3760/1310720  ( 0.3%) 
+vertexes               109/65536        1308/786432   ( 0.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   76/65536        4256/3670016  ( 0.1%) 
+hdr faces               76/65536        4256/3670016  ( 0.1%) 
+origfaces               34/65536        1904/3670016  ( 0.1%) 
+leaves                  65/65536        2080/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes            158/65536         316/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              464/512000       1856/2048000  ( 0.1%) 
+edges                  263/256000       1052/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/131072         40/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            48/131072         96/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       23840/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]        1973/393216   ( 0.5%) 
+LDR ambient table       65/65536         260/262144   ( 0.1%) 
+HDR ambient table       65/65536         260/262144   ( 0.1%) 
+LDR leaf ambient        65/65536        1820/1835008  ( 0.1%) 
+HDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        5879/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 176
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\test1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\test1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5879 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 11
+Reduced 6 texdatas to 6 (150 bytes to 150)
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\test1.bsp
+reading c:\users\ashjo\documents\tf2c\test1.prt
+  16 portalclusters
+  32 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 248
+Average clusters visible: 15
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\test1.bsp
+76 faces
+183409 square feet [26411008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 patches before subdivision
+2076 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264, max 28
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 17/32768         204/393216   ( 0.1%) 
+brushsides             110/65536         880/524288   ( 0.2%) 
+planes                 188/65536        3760/1310720  ( 0.3%) 
+vertexes               109/65536        1308/786432   ( 0.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   76/65536        4256/3670016  ( 0.1%) 
+hdr faces               76/65536        4256/3670016  ( 0.1%) 
+origfaces               34/65536        1904/3670016  ( 0.1%) 
+leaves                  65/65536        2080/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes            158/65536         316/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              464/512000       1856/2048000  ( 0.1%) 
+edges                  263/256000       1052/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/131072         40/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            48/131072         96/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       23840/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]        1913/393216   ( 0.5%) 
+LDR ambient table       65/65536         260/262144   ( 0.1%) 
+HDR ambient table       65/65536         260/262144   ( 0.1%) 
+LDR leaf ambient        65/65536        1820/1835008  ( 0.1%) 
+HDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        5879/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 176
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\test1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\test1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5879 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 11
+Reduced 6 texdatas to 6 (150 bytes to 150)
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\test1.bsp
+reading c:\users\ashjo\documents\tf2c\test1.prt
+  16 portalclusters
+  32 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 248
+Average clusters visible: 15
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\test1.bsp
+76 faces
+183409 square feet [26411008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 patches before subdivision
+2076 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264, max 28
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 17/32768         204/393216   ( 0.1%) 
+brushsides             110/65536         880/524288   ( 0.2%) 
+planes                 188/65536        3760/1310720  ( 0.3%) 
+vertexes               109/65536        1308/786432   ( 0.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   76/65536        4256/3670016  ( 0.1%) 
+hdr faces               76/65536        4256/3670016  ( 0.1%) 
+origfaces               34/65536        1904/3670016  ( 0.1%) 
+leaves                  65/65536        2080/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes            158/65536         316/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              464/512000       1856/2048000  ( 0.1%) 
+edges                  263/256000       1052/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/131072         40/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            48/131072         96/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       23840/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]        1900/393216   ( 0.5%) 
+LDR ambient table       65/65536         260/262144   ( 0.1%) 
+HDR ambient table       65/65536         260/262144   ( 0.1%) 
+LDR leaf ambient        65/65536        1820/1835008  ( 0.1%) 
+HDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        5879/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 176
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\test1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\test1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5879 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 11
+Reduced 6 texdatas to 6 (150 bytes to 150)
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\test1.bsp
+reading c:\users\ashjo\documents\tf2c\test1.prt
+  16 portalclusters
+  32 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 248
+Average clusters visible: 15
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\test1.bsp
+76 faces
+183409 square feet [26411008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 patches before subdivision
+2076 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264, max 28
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 17/32768         204/393216   ( 0.1%) 
+brushsides             110/65536         880/524288   ( 0.2%) 
+planes                 188/65536        3760/1310720  ( 0.3%) 
+vertexes               109/65536        1308/786432   ( 0.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   76/65536        4256/3670016  ( 0.1%) 
+hdr faces               76/65536        4256/3670016  ( 0.1%) 
+origfaces               34/65536        1904/3670016  ( 0.1%) 
+leaves                  65/65536        2080/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes            158/65536         316/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              464/512000       1856/2048000  ( 0.1%) 
+edges                  263/256000       1052/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/131072         40/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            48/131072         96/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       23840/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]        7968/393216   ( 2.0%) 
+LDR ambient table       65/65536         260/262144   ( 0.1%) 
+HDR ambient table       65/65536         260/262144   ( 0.1%) 
+LDR leaf ambient        65/65536        1820/1835008  ( 0.1%) 
+HDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        5879/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 176
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\test1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\test1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5879 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 11
+Reduced 6 texdatas to 6 (150 bytes to 150)
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\test1.bsp
+reading c:\users\ashjo\documents\tf2c\test1.prt
+  16 portalclusters
+  32 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 248
+Average clusters visible: 15
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\test1.bsp
+76 faces
+183409 square feet [26411008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 patches before subdivision
+2076 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264, max 28
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 17/32768         204/393216   ( 0.1%) 
+brushsides             110/65536         880/524288   ( 0.2%) 
+planes                 188/65536        3760/1310720  ( 0.3%) 
+vertexes               109/65536        1308/786432   ( 0.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   76/65536        4256/3670016  ( 0.1%) 
+hdr faces               76/65536        4256/3670016  ( 0.1%) 
+origfaces               34/65536        1904/3670016  ( 0.1%) 
+leaves                  65/65536        2080/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes            158/65536         316/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              464/512000       1856/2048000  ( 0.1%) 
+edges                  263/256000       1052/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/131072         40/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            48/131072         96/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       23840/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]        7967/393216   ( 2.0%) 
+LDR ambient table       65/65536         260/262144   ( 0.1%) 
+HDR ambient table       65/65536         260/262144   ( 0.1%) 
+LDR leaf ambient        65/65536        1820/1835008  ( 0.1%) 
+HDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        5879/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 176
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\test1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\test1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5879 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 11
+Reduced 6 texdatas to 6 (150 bytes to 150)
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\test1.bsp
+reading c:\users\ashjo\documents\tf2c\test1.prt
+  16 portalclusters
+  32 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 248
+Average clusters visible: 15
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\test1.bsp
+76 faces
+183409 square feet [26411008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 patches before subdivision
+2076 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264, max 28
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 17/32768         204/393216   ( 0.1%) 
+brushsides             110/65536         880/524288   ( 0.2%) 
+planes                 188/65536        3760/1310720  ( 0.3%) 
+vertexes               109/65536        1308/786432   ( 0.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   76/65536        4256/3670016  ( 0.1%) 
+hdr faces               76/65536        4256/3670016  ( 0.1%) 
+origfaces               34/65536        1904/3670016  ( 0.1%) 
+leaves                  65/65536        2080/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes            158/65536         316/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              464/512000       1856/2048000  ( 0.1%) 
+edges                  263/256000       1052/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/131072         40/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            48/131072         96/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       23840/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]        8057/393216   ( 2.0%) 
+LDR ambient table       65/65536         260/262144   ( 0.1%) 
+HDR ambient table       65/65536         260/262144   ( 0.1%) 
+LDR leaf ambient        65/65536        1820/1835008  ( 0.1%) 
+HDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        5879/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 176
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\test1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\test1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5879 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 11
+Reduced 6 texdatas to 6 (150 bytes to 150)
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\test1.bsp
+reading c:\users\ashjo\documents\tf2c\test1.prt
+  16 portalclusters
+  32 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 248
+Average clusters visible: 15
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\test1.bsp
+76 faces
+183409 square feet [26411008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 patches before subdivision
+2076 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264, max 28
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 17/32768         204/393216   ( 0.1%) 
+brushsides             110/65536         880/524288   ( 0.2%) 
+planes                 188/65536        3760/1310720  ( 0.3%) 
+vertexes               109/65536        1308/786432   ( 0.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   76/65536        4256/3670016  ( 0.1%) 
+hdr faces               76/65536        4256/3670016  ( 0.1%) 
+origfaces               34/65536        1904/3670016  ( 0.1%) 
+leaves                  65/65536        2080/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes            158/65536         316/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              464/512000       1856/2048000  ( 0.1%) 
+edges                  263/256000       1052/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/131072         40/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            48/131072         96/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       23840/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]        3239/393216   ( 0.8%) 
+LDR ambient table       65/65536         260/262144   ( 0.1%) 
+HDR ambient table       65/65536         260/262144   ( 0.1%) 
+LDR leaf ambient        65/65536        1820/1835008  ( 0.1%) 
+HDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        5879/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 176
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\test1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\test1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5879 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 11
+Reduced 6 texdatas to 6 (150 bytes to 150)
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\test1.bsp
+reading c:\users\ashjo\documents\tf2c\test1.prt
+  16 portalclusters
+  32 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 248
+Average clusters visible: 15
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\test1.bsp
+76 faces
+183409 square feet [26411008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 patches before subdivision
+2076 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264, max 28
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 17/32768         204/393216   ( 0.1%) 
+brushsides             110/65536         880/524288   ( 0.2%) 
+planes                 188/65536        3760/1310720  ( 0.3%) 
+vertexes               109/65536        1308/786432   ( 0.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   76/65536        4256/3670016  ( 0.1%) 
+hdr faces               76/65536        4256/3670016  ( 0.1%) 
+origfaces               34/65536        1904/3670016  ( 0.1%) 
+leaves                  65/65536        2080/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes            158/65536         316/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              464/512000       1856/2048000  ( 0.1%) 
+edges                  263/256000       1052/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/131072         40/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            48/131072         96/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       23840/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]        3578/393216   ( 0.9%) 
+LDR ambient table       65/65536         260/262144   ( 0.1%) 
+HDR ambient table       65/65536         260/262144   ( 0.1%) 
+LDR leaf ambient        65/65536        1820/1835008  ( 0.1%) 
+HDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        5879/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 176
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\test1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\test1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5879 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 11
+Reduced 6 texdatas to 6 (150 bytes to 150)
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\test1.bsp
+reading c:\users\ashjo\documents\tf2c\test1.prt
+  16 portalclusters
+  32 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 248
+Average clusters visible: 15
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\test1.bsp
+76 faces
+183409 square feet [26411008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 patches before subdivision
+2076 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264, max 28
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0001 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 17/32768         204/393216   ( 0.1%) 
+brushsides             110/65536         880/524288   ( 0.2%) 
+planes                 188/65536        3760/1310720  ( 0.3%) 
+vertexes               109/65536        1308/786432   ( 0.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   76/65536        4256/3670016  ( 0.1%) 
+hdr faces               76/65536        4256/3670016  ( 0.1%) 
+origfaces               34/65536        1904/3670016  ( 0.1%) 
+leaves                  65/65536        2080/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes            158/65536         316/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              464/512000       1856/2048000  ( 0.1%) 
+edges                  263/256000       1052/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/131072         40/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            48/131072         96/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       23840/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]        3666/393216   ( 0.9%) 
+LDR ambient table       65/65536         260/262144   ( 0.1%) 
+HDR ambient table       65/65536         260/262144   ( 0.1%) 
+LDR leaf ambient        65/65536        1820/1835008  ( 0.1%) 
+HDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        5879/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 176
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\test1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\test1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5879 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 11
+Reduced 6 texdatas to 6 (150 bytes to 150)
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\test1.bsp
+reading c:\users\ashjo\documents\tf2c\test1.prt
+  16 portalclusters
+  32 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 248
+Average clusters visible: 15
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\test1.bsp
+76 faces
+183409 square feet [26411008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 patches before subdivision
+2076 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 264, max 28
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 17/32768         204/393216   ( 0.1%) 
+brushsides             110/65536         880/524288   ( 0.2%) 
+planes                 188/65536        3760/1310720  ( 0.3%) 
+vertexes               109/65536        1308/786432   ( 0.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   76/65536        4256/3670016  ( 0.1%) 
+hdr faces               76/65536        4256/3670016  ( 0.1%) 
+origfaces               34/65536        1904/3670016  ( 0.1%) 
+leaves                  65/65536        2080/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes            158/65536         316/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              464/512000       1856/2048000  ( 0.1%) 
+edges                  263/256000       1052/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/131072         40/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            48/131072         96/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       23840/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]        3666/393216   ( 0.9%) 
+LDR ambient table       65/65536         260/262144   ( 0.1%) 
+HDR ambient table       65/65536         260/262144   ( 0.1%) 
+LDR leaf ambient        65/65536        1820/1835008  ( 0.1%) 
+HDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]        5879/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 176
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+0 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\test1.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\test1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5879 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 11
+Reduced 6 texdatas to 6 (150 bytes to 150)
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\test1.bsp
+reading c:\users\ashjo\documents\tf2c\test1.prt
+  16 portalclusters
+  32 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 248
+Average clusters visible: 15
+Building PAS...
+Average clusters audible: 16
+visdatasize:196  compressed from 256
+writing c:\users\ashjo\documents\tf2c\test1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\test1.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\test1.bsp
+76 faces
+183409 square feet [26411008.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+76 patches before subdivision
+2076 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 256, max 28
+transfer lists:   0.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0002 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 17/32768         204/393216   ( 0.1%) 
+brushsides             110/65536         880/524288   ( 0.2%) 
+planes                 188/65536        3760/1310720  ( 0.3%) 
+vertexes               109/65536        1308/786432   ( 0.2%) 
+nodes                   63/65536        2016/2097152  ( 0.1%) 
+texinfos                11/12288         792/884736   ( 0.1%) 
+texdata                  6/2048          192/65536    ( 0.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   76/65536        4256/3670016  ( 0.1%) 
+hdr faces               76/65536        4256/3670016  ( 0.1%) 
+origfaces               34/65536        1904/3670016  ( 0.1%) 
+leaves                  65/65536        2080/2097152  ( 0.1%) 
+leaffaces               96/65536         192/131072   ( 0.1%) 
+leafbrushes            158/65536         316/131072   ( 0.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              464/512000       1856/2048000  ( 0.1%) 
+edges                  263/256000       1052/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              4/131072         40/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            48/131072         96/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]       23840/0        ( 0.0%) 
+visdata               [variable]         196/16777216 ( 0.0%) 
+entdata               [variable]        3686/393216   ( 0.9%) 
+LDR ambient table       65/65536         260/262144   ( 0.1%) 
+HDR ambient table       65/65536         260/262144   ( 0.1%) 
+LDR leaf ambient        65/65536        1820/1835008  ( 0.1%) 
+HDR leaf ambient        16/65536         448/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/532      ( 0.2%) 
+pakfile               [variable]       39366/0        ( 0.0%) 
+physics               [variable]        5879/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 176
+Writing c:\users\ashjo\documents\tf2c\test1.bsp
+0 seconds elapsed

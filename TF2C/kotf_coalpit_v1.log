@@ -1,0 +1,540 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/kotf_coalpit_v1/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (155584 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 441 texinfos to 199
+Reduced 37 texdatas to 35 (967 bytes to 874)
+Writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.prt
+ 200 portalclusters
+ 607 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 20 visible clusters (0.06%)
+Total clusters visible: 32872
+Average clusters visible: 164
+Building PAS...
+Average clusters audible: 198
+visdatasize:11575  compressed from 12800
+writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+1201 faces
+255986 square feet [36862048.00 square inches]
+11 Displacements
+11281 Square Feet [1624485.00 Square Inches]
+1201 patches before subdivision
+23075 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2014043, max 423
+transfer lists:  15.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(45613, 22685, 27007)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5501, 1561, 2490)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(870, 137, 301)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(151, 14, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(28, 1, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  30/4096         1440/196608   ( 0.7%) 
+brushes                401/32768        4812/393216   ( 1.2%) 
+brushsides            2879/65536       23032/524288   ( 4.4%) 
+planes                1324/65536       26480/1310720  ( 2.0%) 
+vertexes              2063/65536       24756/786432   ( 3.1%) 
+nodes                  715/65536       22880/2097152  ( 1.1%) 
+texinfos               199/12288       14328/884736   ( 1.6%) 
+texdata                 35/2048         1120/65536    ( 1.7%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts             891/0           17820/0        ( 0.0%) 
+disp_tris             1408/0            2816/0        ( 0.0%) 
+disp_lmsamples       29744/0           29744/0        ( 0.0%) 
+faces                 1201/65536       67256/3670016  ( 1.8%) 
+hdr faces             1201/65536       67256/3670016  ( 1.8%) 
+origfaces              923/65536       51688/3670016  ( 1.4%) 
+leaves                 746/65536       23872/2097152  ( 1.1%) 
+leaffaces             1450/65536        2900/131072   ( 2.2%) 
+leafbrushes            739/65536        1478/131072   ( 1.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             9488/512000      37952/2048000  ( 1.9%) 
+edges                 5655/256000      22620/1024000  ( 2.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         14/16384        1232/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            103/131072       1030/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1713/131072       3426/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                18/1024         6336/360448   ( 1.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      617820/0        ( 0.0%) 
+visdata               [variable]       11575/16777216 ( 0.1%) 
+entdata               [variable]       30971/393216   ( 7.9%) 
+LDR ambient table      746/65536        2984/262144   ( 1.1%) 
+HDR ambient table      746/65536        2984/262144   ( 1.1%) 
+LDR leaf ambient       746/65536       20888/1835008  ( 1.1%) 
+HDR leaf ambient      3219/65536       90132/1835008  ( 4.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7960     ( 0.0%) 
+pakfile               [variable]      373153/0        ( 0.0%) 
+physics               [variable]      155584/4194304  ( 3.7%) 
+physics terrain       [variable]        3343/1048576  ( 0.3%) 
+
+Level flags = 2
+
+Total triangle count: 3287
+Writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+16 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/kotf_coalpit_v1/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (155584 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 443 texinfos to 200
+Reduced 37 texdatas to 35 (967 bytes to 874)
+Writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.prt
+ 200 portalclusters
+ 607 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 20 visible clusters (0.06%)
+Total clusters visible: 32872
+Average clusters visible: 164
+Building PAS...
+Average clusters audible: 198
+visdatasize:11575  compressed from 12800
+writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+1201 faces
+255986 square feet [36862048.00 square inches]
+11 Displacements
+11281 Square Feet [1624485.00 Square Inches]
+1201 patches before subdivision
+23075 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2013189, max 423
+transfer lists:  15.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(45593, 22680, 27002)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5499, 1561, 2490)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(869, 137, 301)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(151, 14, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(28, 1, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  30/4096         1440/196608   ( 0.7%) 
+brushes                401/32768        4812/393216   ( 1.2%) 
+brushsides            2879/65536       23032/524288   ( 4.4%) 
+planes                1324/65536       26480/1310720  ( 2.0%) 
+vertexes              2063/65536       24756/786432   ( 3.1%) 
+nodes                  715/65536       22880/2097152  ( 1.1%) 
+texinfos               200/12288       14400/884736   ( 1.6%) 
+texdata                 35/2048         1120/65536    ( 1.7%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts             891/0           17820/0        ( 0.0%) 
+disp_tris             1408/0            2816/0        ( 0.0%) 
+disp_lmsamples       29744/0           29744/0        ( 0.0%) 
+faces                 1201/65536       67256/3670016  ( 1.8%) 
+hdr faces             1201/65536       67256/3670016  ( 1.8%) 
+origfaces              923/65536       51688/3670016  ( 1.4%) 
+leaves                 746/65536       23872/2097152  ( 1.1%) 
+leaffaces             1450/65536        2900/131072   ( 2.2%) 
+leafbrushes            739/65536        1478/131072   ( 1.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             9488/512000      37952/2048000  ( 1.9%) 
+edges                 5655/256000      22620/1024000  ( 2.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         14/16384        1232/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            103/131072       1030/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1713/131072       3426/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                18/1024         6336/360448   ( 1.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      617820/0        ( 0.0%) 
+visdata               [variable]       11575/16777216 ( 0.1%) 
+entdata               [variable]       30970/393216   ( 7.9%) 
+LDR ambient table      746/65536        2984/262144   ( 1.1%) 
+HDR ambient table      746/65536        2984/262144   ( 1.1%) 
+LDR leaf ambient       746/65536       20888/1835008  ( 1.1%) 
+HDR leaf ambient      3219/65536       90132/1835008  ( 4.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7960     ( 0.0%) 
+pakfile               [variable]      373153/0        ( 0.0%) 
+physics               [variable]      155584/4194304  ( 3.7%) 
+physics terrain       [variable]        3343/1048576  ( 0.3%) 
+
+Level flags = 2
+
+Total triangle count: 3287
+Writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/kotf_coalpit_v1/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (155584 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 443 texinfos to 200
+Reduced 37 texdatas to 35 (967 bytes to 874)
+Writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.prt
+ 200 portalclusters
+ 607 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 20 visible clusters (0.06%)
+Total clusters visible: 32872
+Average clusters visible: 164
+Building PAS...
+Average clusters audible: 198
+visdatasize:11575  compressed from 12800
+writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+1201 faces
+255986 square feet [36862048.00 square inches]
+11 Displacements
+11281 Square Feet [1624485.00 Square Inches]
+1201 patches before subdivision
+23075 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2013189, max 423
+transfer lists:  15.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(45593, 22680, 27002)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5499, 1561, 2490)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(869, 137, 301)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(151, 14, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(28, 1, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  30/4096         1440/196608   ( 0.7%) 
+brushes                401/32768        4812/393216   ( 1.2%) 
+brushsides            2879/65536       23032/524288   ( 4.4%) 
+planes                1324/65536       26480/1310720  ( 2.0%) 
+vertexes              2063/65536       24756/786432   ( 3.1%) 
+nodes                  715/65536       22880/2097152  ( 1.1%) 
+texinfos               200/12288       14400/884736   ( 1.6%) 
+texdata                 35/2048         1120/65536    ( 1.7%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts             891/0           17820/0        ( 0.0%) 
+disp_tris             1408/0            2816/0        ( 0.0%) 
+disp_lmsamples       29744/0           29744/0        ( 0.0%) 
+faces                 1201/65536       67256/3670016  ( 1.8%) 
+hdr faces             1201/65536       67256/3670016  ( 1.8%) 
+origfaces              923/65536       51688/3670016  ( 1.4%) 
+leaves                 746/65536       23872/2097152  ( 1.1%) 
+leaffaces             1450/65536        2900/131072   ( 2.2%) 
+leafbrushes            739/65536        1478/131072   ( 1.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             9488/512000      37952/2048000  ( 1.9%) 
+edges                 5655/256000      22620/1024000  ( 2.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         14/16384        1232/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            103/131072       1030/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1713/131072       3426/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                18/1024         6336/360448   ( 1.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      617820/0        ( 0.0%) 
+visdata               [variable]       11575/16777216 ( 0.1%) 
+entdata               [variable]       30970/393216   ( 7.9%) 
+LDR ambient table      746/65536        2984/262144   ( 1.1%) 
+HDR ambient table      746/65536        2984/262144   ( 1.1%) 
+LDR leaf ambient       746/65536       20888/1835008  ( 1.1%) 
+HDR leaf ambient      3219/65536       90132/1835008  ( 4.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7960     ( 0.0%) 
+pakfile               [variable]      373153/0        ( 0.0%) 
+physics               [variable]      155584/4194304  ( 3.7%) 
+physics terrain       [variable]        3343/1048576  ( 0.3%) 
+
+Level flags = 2
+
+Total triangle count: 3287
+Writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\tf2classic\materials
+Loading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/kotf_coalpit_v1/coalmines/blendgroundtograss_coalmines2_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (155584 bytes)
+Placing static props...
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 443 texinfos to 200
+Reduced 37 texdatas to 35 (967 bytes to 874)
+Writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+reading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.prt
+ 200 portalclusters
+ 607 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 20 visible clusters (0.06%)
+Total clusters visible: 32872
+Average clusters visible: 164
+Building PAS...
+Average clusters audible: 198
+visdatasize:11575  compressed from 12800
+writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[46 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+Loaded alpha texture materials\Metal\metalgrate013a.vtf
+1201 faces
+255986 square feet [36862048.00 square inches]
+11 Displacements
+11281 Square Feet [1624485.00 Square Inches]
+1201 patches before subdivision
+23075 patches after subdivision
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2013189, max 423
+transfer lists:  15.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(45593, 22680, 27002)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5499, 1561, 2490)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(869, 137, 301)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(151, 14, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(28, 1, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0025 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  30/4096         1440/196608   ( 0.7%) 
+brushes                401/32768        4812/393216   ( 1.2%) 
+brushsides            2879/65536       23032/524288   ( 4.4%) 
+planes                1324/65536       26480/1310720  ( 2.0%) 
+vertexes              2063/65536       24756/786432   ( 3.1%) 
+nodes                  715/65536       22880/2097152  ( 1.1%) 
+texinfos               200/12288       14400/884736   ( 1.6%) 
+texdata                 35/2048         1120/65536    ( 1.7%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts             891/0           17820/0        ( 0.0%) 
+disp_tris             1408/0            2816/0        ( 0.0%) 
+disp_lmsamples       29744/0           29744/0        ( 0.0%) 
+faces                 1201/65536       67256/3670016  ( 1.8%) 
+hdr faces             1201/65536       67256/3670016  ( 1.8%) 
+origfaces              923/65536       51688/3670016  ( 1.4%) 
+leaves                 746/65536       23872/2097152  ( 1.1%) 
+leaffaces             1450/65536        2900/131072   ( 2.2%) 
+leafbrushes            739/65536        1478/131072   ( 1.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             9488/512000      37952/2048000  ( 1.9%) 
+edges                 5655/256000      22620/1024000  ( 2.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         14/16384        1232/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            103/131072       1030/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1713/131072       3426/262144   ( 1.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                18/1024         6336/360448   ( 1.8%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      617820/0        ( 0.0%) 
+visdata               [variable]       11575/16777216 ( 0.1%) 
+entdata               [variable]       30873/393216   ( 7.9%) 
+LDR ambient table      746/65536        2984/262144   ( 1.1%) 
+HDR ambient table      746/65536        2984/262144   ( 1.1%) 
+LDR leaf ambient       746/65536       20888/1835008  ( 1.1%) 
+HDR leaf ambient      3219/65536       90132/1835008  ( 4.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/7960     ( 0.0%) 
+pakfile               [variable]      373153/0        ( 0.0%) 
+physics               [variable]      155584/4194304  ( 3.7%) 
+physics terrain       [variable]        3343/1048576  ( 0.3%) 
+
+Level flags = 2
+
+Total triangle count: 3287
+Writing c:\users\ashjo\documents\tf2c\kotf_coalpit_v1.bsp
+16 seconds elapsed
