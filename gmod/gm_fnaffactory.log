@@ -1,0 +1,317 @@
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Multiplayer\hl2\materials
+Loading D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\maps\RAOIM\gm_fnaffactory.vmf
+Map revision 79
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\source sdk base 2013 multiplayer\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\maps\RAOIM\gm_fnaffactory.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (103070 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 389 texinfos to 206
+Reduced 42 texdatas to 42 (972 bytes to 972)
+Writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\maps\RAOIM\gm_fnaffactory.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\maps\RAOIM\gm_fnaffactory.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 86980, actual size 86766
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\maps\raoim\gm_fnaffactory.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\maps\raoim\gm_fnaffactory.prt
+ 118 portalclusters
+ 231 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 153 visible clusters (0.00%)
+Total clusters visible: 6759
+Average clusters visible: 57
+Building PAS...
+Average clusters audible: 115
+visdatasize:4521  compressed from 3776
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\maps\raoim\gm_fnaffactory.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steamlibrary\steamapps\common\garrysmod\garrysmod\maps\raoim\gm_fnaffactory.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\maps\raoim\gm_fnaffactory.bsp
+648 faces
+161315 square feet [23229468.00 square inches]
+2 Displacements
+18492 Square Feet [2662881.75 Square Inches]
+648 patches before subdivision
+18170 patches after subdivision
+51 direct lights
+0...1.
+WARNING: Too many light styles on a face at (-840.000000, 2495.000000, 296.000000)
+
+WARNING: Too many light styles on a face at (-776.000000, 2495.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (-1016.000000, 2488.000000, 97.000000)
+..
+WARNING: Too many light styles on a face at (-1032.000000, 2495.000000, 280.000000)
+2...3
+WARNING: Too many light styles on a face at (-632.000000, 1128.000000, 65.000000)
+.
+WARNING: Too many light styles on a face at (-1016.000000, 1912.000000, 65.000000)
+.
+WARNING: Too many light styles on a face at (-1080.000000, 1528.000000, 65.000000)
+
+WARNING: Too many light styles on a face at (-1272.000000, 1192.000000, 65.000000)
+.
+WARNING: Too many light styles on a face at (-1080.000000, 1832.000000, 65.000000)
+4..
+WARNING: Too many light styles on a face at (-1272.000000, 1535.000000, 216.000000)
+.5...6...7
+WARNING: Too many light styles on a face at (-536.000000, 760.000000, 65.000000)
+...8..
+WARNING: Too many light styles on a face at (-1080.000000, 1016.000000, 65.000000)
+
+WARNING: Too many light styles on a face at (-1464.000000, 808.000000, 65.000000)
+.9...100...1...2...3...4...5...6...7...8...9...10transfers 1104164, max 265
+transfer lists:   8.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(804, 858, 828)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(125, 106, 69)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(23, 16, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/4096          960/196608   ( 0.5%) 
+brushes                293/32768        3516/393216   ( 0.9%) 
+brushsides            1776/65536       14208/524288   ( 2.7%) 
+planes                 510/65536       10200/1310720  ( 0.8%) 
+vertexes              1127/65536       13524/786432   ( 1.7%) 
+nodes                  426/65536       13632/2097152  ( 0.7%) 
+texinfos               206/12288       14832/884736   ( 1.7%) 
+texdata                 42/2048         1344/65536    ( 2.1%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             370/0            7400/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples       27634/0           27634/0        ( 0.0%) 
+faces                  648/65536       36288/3670016  ( 1.0%) 
+hdr faces              648/65536       36288/3670016  ( 1.0%) 
+origfaces              486/65536       27216/3670016  ( 0.7%) 
+leaves                 447/65536       14304/2097152  ( 0.7%) 
+leaffaces              703/65536        1406/131072   ( 1.1%) 
+leafbrushes            429/65536         858/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4925/512000      19700/2048000  ( 1.0%) 
+edges                 2935/256000      11740/1024000  ( 1.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         51/16384        4488/1441792  ( 0.3%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             60/131072        600/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1014/131072       2028/262144   ( 0.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 7/1024         2464/360448   ( 0.7%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1339180/0        ( 0.0%) 
+visdata               [variable]        4521/16777216 ( 0.0%) 
+entdata               [variable]       76469/393216   (19.4%) 
+LDR ambient table      447/65536        1788/262144   ( 0.7%) 
+HDR ambient table      447/65536        1788/262144   ( 0.7%) 
+LDR leaf ambient       447/65536       12516/1835008  ( 0.7%) 
+HDR leaf ambient       850/65536       23800/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12598    ( 0.0%) 
+pakfile               [variable]     1007330/0        ( 0.0%) 
+physics               [variable]      103070/4194304  ( 2.5%) 
+physics terrain       [variable]         869/1048576  ( 0.1%) 
+
+Level flags = 2
+
+Total triangle count: 1689
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\maps\raoim\gm_fnaffactory.bsp
+3 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Multiplayer\hl2\materials
+Loading D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\maps\RAOIM\gm_fnaffactory.vmf
+Map revision 86
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\source sdk base 2013 multiplayer\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 20 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\maps\RAOIM\gm_fnaffactory.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (118470 bytes)
+Error! To use model "models/props/de_inferno/tv_monitor01.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props/de_inferno/tv_monitor01.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 443 texinfos to 252
+Reduced 43 texdatas to 43 (979 bytes to 979)
+Writing D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\maps\RAOIM\gm_fnaffactory.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\maps\RAOIM\gm_fnaffactory.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 86980, actual size 86766
+1 second elapsed
+
+
+
+16 threads
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\maps\raoim\gm_fnaffactory.bsp
+reading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\maps\raoim\gm_fnaffactory.prt
+ 163 portalclusters
+ 327 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 184 visible clusters (0.00%)
+Total clusters visible: 8471
+Average clusters visible: 51
+Building PAS...
+Average clusters audible: 122
+visdatasize:7492  compressed from 7824
+writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\maps\raoim\gm_fnaffactory.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steamlibrary\steamapps\common\garrysmod\garrysmod\maps\raoim\gm_fnaffactory.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\steamlibrary\steamapps\common\garrysmod\garrysmod\maps\raoim\gm_fnaffactory.bsp
+819 faces
+169445 square feet [24400180.00 square inches]
+2 Displacements
+18492 Square Feet [2662881.75 Square Inches]
+819 patches before subdivision
+18945 patches after subdivision
+56 direct lights
+0...1
+WARNING: Too many light styles on a face at (-840.000000, 2495.000000, 296.000000)
+
+WARNING: Too many light styles on a face at (-776.000000, 2495.000000, 120.000000)
+
+WARNING: Too many light styles on a face at (-1016.000000, 2488.000000, 97.000000)
+.
+WARNING: Too many light styles on a face at (-1032.000000, 2495.000000, 280.000000)
+..2..
+WARNING: Too many light styles on a face at (-1016.000000, 1912.000000, 65.000000)
+.
+WARNING: Too many light styles on a face at (-1272.000000, 1192.000000, 65.000000)
+
+WARNING: Too many light styles on a face at (-1080.000000, 1528.000000, 65.000000)
+3
+WARNING: Too many light styles on a face at (-1080.000000, 1832.000000, 65.000000)
+.
+WARNING: Too many light styles on a face at (-1272.000000, 1535.000000, 216.000000)
+..4...5...6...7...8...
+WARNING: Too many light styles on a face at (-1080.000000, 1016.000000, 65.000000)
+
+WARNING: Too many light styles on a face at (-1464.000000, 808.000000, 65.000000)
+9...100...1...2...3...4...5...6...7...8...9...10transfers 1131263, max 265
+transfer lists:   8.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(840, 1406, 1759)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(134, 212, 237)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(24, 38, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(5, 8, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0023 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/4096         1008/196608   ( 0.5%) 
+brushes                338/32768        4056/393216   ( 1.0%) 
+brushsides            2119/65536       16952/524288   ( 3.2%) 
+planes                 608/65536       12160/1310720  ( 0.9%) 
+vertexes              1356/65536       16272/786432   ( 2.1%) 
+nodes                  523/65536       16736/2097152  ( 0.8%) 
+texinfos               252/12288       18144/884736   ( 2.1%) 
+texdata                 43/2048         1376/65536    ( 2.1%) 
+dispinfos                2/0             352/0        ( 0.0%) 
+disp_verts             370/0            7400/0        ( 0.0%) 
+disp_tris              640/0            1280/0        ( 0.0%) 
+disp_lmsamples       27634/0           27634/0        ( 0.0%) 
+faces                  819/65536       45864/3670016  ( 1.2%) 
+hdr faces              819/65536       45864/3670016  ( 1.2%) 
+origfaces              588/65536       32928/3670016  ( 0.9%) 
+leaves                 545/65536       17440/2097152  ( 0.8%) 
+leaffaces              886/65536        1772/131072   ( 1.4%) 
+leafbrushes            494/65536         988/131072   ( 0.8%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             6115/512000      24460/2048000  ( 1.2%) 
+edges                 3647/256000      14588/1024000  ( 1.4%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights         56/16384        4928/1441792  ( 0.3%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             71/131072        710/1310720  ( 0.1%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices          1179/131072       2358/262144   ( 0.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 7/1024         2464/360448   ( 0.7%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1959624/0        ( 0.0%) 
+visdata               [variable]        7492/16777216 ( 0.0%) 
+entdata               [variable]       82416/393216   (21.0%) 
+LDR ambient table      545/65536        2180/262144   ( 0.8%) 
+HDR ambient table      545/65536        2180/262144   ( 0.8%) 
+LDR leaf ambient       545/65536       15260/1835008  ( 0.8%) 
+HDR leaf ambient      1166/65536       32648/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/17214    ( 0.0%) 
+pakfile               [variable]     1146882/0        ( 0.0%) 
+physics               [variable]      118470/4194304  ( 2.8%) 
+physics terrain       [variable]         869/1048576  ( 0.1%) 
+
+Level flags = 2
+
+Total triangle count: 2117
+Writing d:\steamlibrary\steamapps\common\garrysmod\garrysmod\maps\raoim\gm_fnaffactory.bsp
+4 seconds elapsed

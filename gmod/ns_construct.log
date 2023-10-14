@@ -1,0 +1,263 @@
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Multiplayer\hl2\materials
+Loading c:\users\ashjo\documents\gmod\ns_construct.vmf
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\source sdk base 2013 multiplayer\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (-128.00 0.00 1.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (1362 bytes)
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 6 texinfos to 6
+Reduced 2 texdatas to 2 (49 bytes to 49)
+Writing c:\users\ashjo\documents\gmod\ns_construct.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\gmod\ns_construct.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105893, actual size 105679
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\gmod\ns_construct.bsp
+reading c:\users\ashjo\documents\gmod\ns_construct.prt
+LoadPortals: couldn't read c:\users\ashjo\documents\gmod\ns_construct.prt
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Multiplayer\hl2\materials
+Loading c:\users\ashjo\documents\gmod\ns_construct.vmf
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\source sdk base 2013 multiplayer\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\gmod\ns_construct.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3479 bytes)
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 9 texinfos to 7
+Reduced 3 texdatas to 3 (67 bytes to 67)
+Writing c:\users\ashjo\documents\gmod\ns_construct.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\gmod\ns_construct.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105893, actual size 105679
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\gmod\ns_construct.bsp
+reading c:\users\ashjo\documents\gmod\ns_construct.prt
+ 977 portalclusters
+1917 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 954529
+Average clusters visible: 977
+Building PAS...
+Average clusters audible: 977
+visdatasize:248162  compressed from 250112
+writing c:\users\ashjo\documents\gmod\ns_construct.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\gmod\ns_construct.bsp', but we don't own that location. Allowing.
+52 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\gmod\ns_construct.bsp
+Cannot load the static props... encountered a stale map version. Re-vbsp the map.
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Multiplayer\hl2\materials
+Loading c:\users\ashjo\documents\gmod\ns_construct.vmf
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\source sdk base 2013 multiplayer\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\gmod\ns_construct.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3479 bytes)
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 9 texinfos to 7
+Reduced 3 texdatas to 3 (67 bytes to 67)
+Writing c:\users\ashjo\documents\gmod\ns_construct.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\gmod\ns_construct.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105893, actual size 105679
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\gmod\ns_construct.bsp
+reading c:\users\ashjo\documents\gmod\ns_construct.prt
+ 977 portalclusters
+1917 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8.
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Multiplayer\hl2\materials
+Loading c:\users\ashjo\documents\gmod\ns_construct.vmf
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\source sdk base 2013 multiplayer\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\users\ashjo\documents\gmod\ns_construct.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3479 bytes)
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 9 texinfos to 7
+Reduced 3 texdatas to 3 (67 bytes to 67)
+Writing c:\users\ashjo\documents\gmod\ns_construct.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\gmod\ns_construct.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105893, actual size 105679
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\gmod\ns_construct.bsp
+reading c:\users\ashjo\documents\gmod\ns_construct.prt
+  37 portalclusters
+  90 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1369
+Average clusters visible: 37
+Building PAS...
+Average clusters audible: 37
+visdatasize:670  compressed from 592
+writing c:\users\ashjo\documents\gmod\ns_construct.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\gmod\ns_construct.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\gmod\ns_construct.bsp
+Cannot load the static props... encountered a stale map version. Re-vbsp the map.
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Source SDK Base 2013 Multiplayer\hl2\materials
+Loading C:\Users\ashjo\Documents\gmod\ns_construct.vmf
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\source sdk base 2013 multiplayer\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Users\ashjo\Documents\gmod\ns_construct.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (3479 bytes)
+Error loading studio model ""!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 9 texinfos to 7
+Reduced 3 texdatas to 3 (67 bytes to 67)
+Writing C:\Users\ashjo\Documents\gmod\ns_construct.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Users\ashjo\Documents\gmod\ns_construct.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 105893, actual size 105679
+0 seconds elapsed
+
+
+
+16 threads
+reading c:\users\ashjo\documents\gmod\ns_construct.bsp
+reading c:\users\ashjo\documents\gmod\ns_construct.prt
+  37 portalclusters
+  90 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1369
+Average clusters visible: 37
+Building PAS...
+Average clusters audible: 37
+visdatasize:670  compressed from 592
+writing c:\users\ashjo\documents\gmod\ns_construct.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\users\ashjo\documents\gmod\ns_construct.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\users\ashjo\documents\gmod\ns_construct.bsp
+Cannot load the static props... encountered a stale map version. Re-vbsp the map.
